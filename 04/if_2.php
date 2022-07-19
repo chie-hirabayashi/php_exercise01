@@ -3,8 +3,7 @@
 $point = intval(100);
 
 if ($point % 2 === 0) {
-    echo 'Xは偶数です';
+    echo $point.'は偶数です';
 } elseif ($point % 2 !== 0) {
-    echo 'Xは奇数です';
-} else {
-}
+    echo $point.'は奇数です';
+} 
