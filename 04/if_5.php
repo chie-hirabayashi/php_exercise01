@@ -11,7 +11,7 @@ for ($i = 2; $i < $num; $i++) {
 }
 
 if ($num == 1 || $flag == 1) {
-    echo $num.'は素数ではありません';
+    echo $num . 'は素数ではありません';
 } else {
-    echo $num.'は素数です';
+    echo $num . 'は素数です';
 }

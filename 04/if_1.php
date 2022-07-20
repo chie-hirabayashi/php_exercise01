@@ -9,5 +9,4 @@ if ($a > $b) {
     echo $b;
 } elseif ($a == $b) {
     echo '入力された値は等しいです';
-} else {
 }
